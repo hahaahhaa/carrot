@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  position: sticky;
+
+  z-index: 2;
+  top: 20px;
+  height: var(--height-toolbar);
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  color: black;
+
+}
+
+.header__homelink {
+  display: inline-block;
+  cursor: pointer;
+  hegiht:var(--height-toolbar);
+}
+
+.header__logo {
+  height: 36px;
+  margin-bottom: 4px;
+}
+
+.header__nav-item {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+.mini__icon {
+  width : 80px;
+
+}
+
+
+
+.big__ficture {
+  border-radius: 25px
+}
