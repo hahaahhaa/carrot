@@ -12,6 +12,10 @@
   background-color: white;
   color: black;
 
+  padding:0 180px;
+
+
+
 }
 
 .header__homelink {
@@ -25,9 +29,15 @@
   margin-bottom: 4px;
 }
 
+.header__nav {
+  display: flex;
+  gap: 30px;
+}
+
 .header__nav-item {
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight:700;
 }
 
 .header__nav a {
@@ -35,9 +45,10 @@
   color: black;
 }
 
+.header__nav-item:nth-child(3) a {
+  color: orange;
 
-
-
+}
 
 
 
@@ -50,4 +61,11 @@
 
 .big__ficture {
   border-radius: 25px
+}
+
+
+
+.section {
+
+  padding: 30px 180px;
 }
