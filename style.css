@@ -132,4 +132,15 @@
 
 
 
+.semi_section {
+  display: flex;
+  justify-content: space-between;
 
+
+}
+
+.semi_explanation {
+  display: inline-block;
+  width: 328px;
+
+}
