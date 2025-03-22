@@ -145,3 +145,15 @@ a:hover {
   width: 328px;
 
 }
+
+
+.footer_total {
+  padding: 0 140px;
+  width: 521px;
+}
+
+.footer_document {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;  
+}
